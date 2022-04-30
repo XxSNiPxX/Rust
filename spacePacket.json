@@ -1,0 +1,26 @@
+[
+    {
+        "id":"Version",
+        "dp":"uint8",
+        "size":1,
+        "multiplier":1
+    },
+    {
+        "id":"Ap ID",
+        "dp":"uint8",
+        "size":1,
+        "multiplier":1
+    },
+    {
+        "id":"Seq Number",
+        "dp":"uint8",
+        "size":1,
+        "multiplier":1
+    },
+    {
+        "id":"Packet Size",
+        "dp":"uint16",
+        "size":2,
+        "multiplier":1
+    }
+]

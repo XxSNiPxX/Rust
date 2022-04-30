@@ -1,0 +1,20 @@
+[package]
+name = "binary2csv"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+globset = "0.4.8"
+regex = "1"
+hex = "0.4.3"
+bitreader = "0.3.6"
+bstr = "0.2.17"
+serde_json = "1.0.79"
+memmem = "0.1.1"
+byte-order = "0.3.0"
+arrayref = "0.3.6"
+serde = { version = "1.0.136", features = ["derive"] }
+enum-map = "2.1.0"
+csv = "1.1.6"

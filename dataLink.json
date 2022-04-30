@@ -1,0 +1,26 @@
+[
+    {
+        "id":"Spacecraft ID",
+        "dp":"uint16",
+        "size":2,
+        "multiplier":1
+    },
+    {
+        "id":"MC Frame Count",
+        "dp":"uint8",
+        "size":1,
+        "multiplier":1
+    },
+    {
+        "id":"VC Frame Count",
+        "dp":"uint8",
+        "size":1,
+        "multiplier":1
+    },
+    {
+        "id":"TF Datafield Status",
+        "dp":"uint16",
+        "size":2,
+        "multiplier":1
+    }
+]

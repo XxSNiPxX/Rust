@@ -1,0 +1,106 @@
+[
+    { "id": "Timestamp", "dp": "int32LE", "size": 4, "multiplier": 1
+    },
+    { "id": "_3V3", "dp": "uint16LE", "size": 2, "multiplier": 0.001220703125
+    },
+    { "id": "_3V3RF", "dp": "uint16LE", "size": 2, "multiplier": 0.001220703125
+    },
+    { "id": "_V5V", "dp": "uint16LE", "size": 2, "multiplier": 0.00244414062
+    },
+    { "id": "_V_BAT", "dp": "uint16LE", "size": 2, "multiplier": 0.001220703125
+    },
+    { "id": "V_MPPT", "dp": "uint16LE", "size": 2, "multiplier": 0.001220703125
+    },
+    { "id": "Current_3V3", "dp": "uint16LE", "size": 2, "multiplier": 0.6103515625
+    },
+    { "id": "Current_3V3RF", "dp": "uint16LE", "size": 2, "multiplier": 0.6103515625
+    },
+    { "id": "Current_V5V", "dp": "uint16LE", "size": 2, "multiplier": 0.6103515625
+    },
+    { "id": "Current_VBAT", "dp": "uint16LE", "size": 2, "multiplier": 0.6103515625
+    },
+    { "id": "Current_MPPT", "dp": "uint16LE", "size": 2, "multiplier": 0.6103515625
+    },
+    { "id": "Battery_Temp", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Battery_Temp_2", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Temp_Solar_Panel_1", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Temp_Solar_Panel_2", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Temp_Solar_Panel_3", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Temp_Solar_Panel_4", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Fault_3V3_RF_V5V", "dp": "uint8", "size": 1, "multiplier": 1
+    },
+    { "id": "OBC_Mode", "dp": "uint8", "size": 1, "multiplier": 1
+    },
+    { "id": "Heater_Status", "dp": "uint8", "size": 1, "multiplier": 1
+    },
+    { "id": "Firmware_Version", "dp": "uint8", "size": 1, "multiplier": 1
+    },
+    { "id": "Last_Reception_Time", "dp": "int32LE", "size": 4, "multiplier": 1
+    },
+    { "id": "Last_RSSI", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "S_F_Packet_Count", "dp": "uint16LE", "size": 2, "multiplier": 1
+    },
+    { "id": "Bad_RX_Count", "dp": "uint16LE", "size": 2, "multiplier": 1
+    },
+    { "id": "Last_Transmit_Time", "dp": "int32LE", "size": 4, "multiplier": 1
+    },
+    { "id": "TX_Packets", "dp": "uint16LE", "size": 2, "multiplier": 1
+    },
+    { "id": "RX_Packets", "dp": "uint16LE", "size": 2, "multiplier": 1
+    },
+    { "id": "Beacon_Interval", "dp": "uint8", "size": 1, "multiplier": 1
+    },
+    { "id": "ANT_Deploy_Status", "dp": "uint8", "size": 1, "multiplier": 1
+    },
+    { "id": "GPS_Read_Time", "dp": "int32LE", "size": 4, "multiplier": 1
+    },
+    { "id": "TOW", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "ECEF_X", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "ECEF_Y", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "ECEF_Z", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "ECEF_VX", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "ECEF_VY", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "ECEF_VZ", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Seconds_From_2000", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Gyro_1", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Gyro_2", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Gyro_3", "dp": "FloatLE", "size": 4, "multiplier": 1
+    },
+    { "id": "Orbit_Propagator_Time", "dp": "int32LE", "size": 4, "multiplier": 1
+    },
+    { "id": "Dof_9_Temperature", "dp": "FloatLE", "size": 4, "multiplier": 1 
+    },
+    { "id": "ECI_Z_1", "dp": "DoubleLE", "size": 8, "multiplier": 1
+    },
+    { "id": "ECI_Z_2", "dp": "DoubleLE", "size": 8, "multiplier": 1
+    },
+    { "id": "ECI_Z_3", "dp": "DoubleLE", "size": 8, "multiplier": 1
+    },
+    { "id": "ECI_SUN_1", "dp": "DoubleLE", "size": 8, "multiplier": 1
+    },
+    { "id": "ECI_SUN_2", "dp": "DoubleLE", "size": 8, "multiplier": 1
+    },
+    { "id": "ECI_SUN_3", "dp": "DoubleLE", "size": 8, "multiplier": 1
+    },
+    { "id": "ADCS_mode", "dp": "uint8", "size": 1, "multiplier": 1
+    },
+    { "id": "Reboot_Counter", "dp": "int32LE", "size": 4, "multiplier": 1
+    }
+]
